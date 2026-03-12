@@ -1,0 +1,29 @@
+# ==============================================================================
+# PROJETO: Predição de Idade via ECG (TCC Engenharia de Computação - Feevale)
+# AUTOR: Marcio Jose Gomes Bastos Filho
+# DESCRICAO: Lista de dependências e bibliotecas Python necessárias para a 
+#            execução do projeto, garantindo a reprodutibilidade dos resultados.
+# INSTRUCOES: Instalar via terminal utilizando o comando:
+#             pip install -r requirements.txt
+# ==============================================================================
+
+# Computação numérica e manipulação de arrays multidimensionais
+numpy>=1.14.3
+
+# Manipulação de tabelas de metadados e arquivos CSV
+pandas>=0.22
+
+# Leitura e escrita de arquivos HDF5 (utilizado para os traçados de ECG)
+h5py>=2.8
+
+# Framework de Deep Learning para construção e treino da ResNet1d
+pytorch>=1.2
+
+# Barras de progresso para monitoramento dos loops de treino e avaliação
+tqdm>=4.26
+
+# Visualização de dados estatísticos (histogramas de idade)
+seaborn>=0.9
+
+# Geração de gráficos e curvas de aprendizado
+matplotlib>=3.2

@@ -1,0 +1,49 @@
+# ==============================================================================
+# PROJETO: Predição de Idade via ECG (TCC Engenharia de Computação - Feevale)
+# AUTOR: Marcio Jose Gomes Bastos Filho
+# DESCRICAO: Arquivo .gitignore para filtrar arquivos desnecessários no Git.
+# ==============================================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+
+# --- Dados e Pesos do Modelo (Datasets Pesados) ---
+# Ignora arquivos de dados para evitar exceder o limite de quota do GitHub
+*.hdf5
+*.h5
+*.csv
+# Exceto arquivos de histórico e metadados pequenos que você queira manter
+!history.csv
+!requirements.txt
+
+# --- Modelos Treinados ---
+# Ignora os pesos do modelo (geralmente > 100MB)
+*.pth
+*.pt
+*.ckpt
+
+# --- Logs e Saídas ---
+model/
+predicted_age.csv
+*.log
+*.png
+*.jpg
+*.jpeg
+
+# --- IDEs e Sistema Operacional ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
